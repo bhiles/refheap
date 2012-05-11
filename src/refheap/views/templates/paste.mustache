@@ -27,7 +27,11 @@
     <p>
     Protip: if you get tired of selecting your language every time you drop in,
     you can specify it in the URL and bookmark the link. Example:
-    <a href="https://refheap.com/paste?lang=Ruby">http://refheap.com/paste?lang=Ruby</a>
+    <a href="../paste?lang=Ruby" id="lang-paste">
+        <script language="JavaScript">
+            document.getElementById("lang-paste").innerHTML = document.getElementById("lang-paste");
+        </script>
+    </a>
     </p>
     <p>
     Send feedback, feature requests, and bug reports
